@@ -59,6 +59,15 @@ const MainnetFeatures = [
 
 const TestnetFeatures = [
   {
+    title: 'Dill',
+    Svg: require('@site/static/img/testnet/dill.svg').default,
+    description: '',
+    buttons: [
+      { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Testnet/Dill' },
+      { label: 'Explorer', url: 'https://andes.dill.xyz' },
+    ]
+  },
+  {
     title: 'Tanssi',
     Svg: require('@site/static/img/testnet/tanssi.svg').default,
     description: '',
