@@ -1,5 +1,3 @@
-import React from 'react';
-import styles from './styles.module.css';
 
 const MainnetFeatures = [
   {
@@ -186,54 +184,3 @@ const TestnetFeatures = [
     ]
   },
 ];
-
-function FeatureCard({ Svg, image, title, description, buttons }) {
-  return (
-    <div className={styles.featureCard}>
-      <div className={styles.featureCardContent}>
-        <div className={styles.featureHeader}>
-          <div className={styles.featureHeaderContent}>
-            {/* Tiêu đề */}
-            <h2 className={styles.featureTitle}>{title}</h2>
-          </div>
-        </div>
-        {/* Ảnh */}
-        <div className={styles.featureImageContainer}>
-          {Svg ? <Svg className={styles.featureCardSvg} role="img" /> : <img src={image} alt={title} className={styles.featureCardImg} />}
-        </div>
-        {/* Mô tả */}
-        <p>{description}</p>
-        {/* Các nút */}
-        <div className={styles.buttonsContainer}>
-          {buttons.map((button, index) => (
-            <a key={index} href={button.url} className={styles.featureButton}>
-              {button.label}
-            </a>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-
-
-
-export default function HomepageFeatures() {
-  return (
-    <section>
-      <h2 className={styles.mainnetTitle}>Mainnet</h2>
-      <section className={styles.features}>
-        {MainnetFeatures.map((feature, index) => (
-          <FeatureCard key={index} {...feature} />
-        ))}
-      </section>
-      <h2 className={styles.testnetTitle}>Testnet</h2>
-      <section className={styles.features}>
-        {TestnetFeatures.map((feature, index) => (
-          <FeatureCard key={index} {...feature} />
-        ))}
-      </section>
-    </section>
-  );
-}
