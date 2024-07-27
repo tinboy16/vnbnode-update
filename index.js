@@ -1,4 +1,3 @@
-
 const MainnetFeatures = [
   {
     title: 'DYMENSION',
@@ -8,6 +7,15 @@ const MainnetFeatures = [
       { label: 'Install', url: '/docs/Mainnet/Dymension/' },
       { label: 'Explorer', url: 'https://explorer.vnbnode.com/' },
       { label: 'Stake', url: 'https://wallet.keplr.app/chains/dymension?modal=validator&chain=dymension_1100-1&validator_address=dymvaloper1mgu88mkl88q5l9h6wvzus7ul2fc263g4hpt2mj'},
+    ]
+  },
+  {
+    title: 'Self Chain',
+    Svg: require('@site/static/img/mainnet/selfchain.svg').default,
+    buttons: [
+      { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides' },
+      { label: 'Explorer', url: 'https://explorer.vnbnode.com/' },
+      { label: 'Stake', url: 'https://staking.selfchain.xyz/'},   
     ]
   },
   {
