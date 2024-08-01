@@ -24,7 +24,16 @@ const MainnetFeatures = [
     buttons: [
       { label: 'Install', url: '/docs/Testnet_END/tangle' },
       { label: 'Explorer', url: 'https://explorer.tangle.tools/' },
-      { label: 'Stake', url: '/blog/tangle-mainnet-stake'},   
+      { label: 'Stake', url: 'https://app.tangle.tools/nomination'},   
+    ]
+  },
+  {
+    title: 'LAVA',
+    Svg: require('@site/static/img/mainnet/lava.svg').default,
+    buttons: [
+      { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Mainnet/lava' },
+      { label: 'Explorer', url: 'https://explorer.vnbnode.com/' },
+      { label: 'Stake', url: 'https://wallet.keplr.app/chains/lava?modal=staking&chain=lava-mainnet-1&validator_address=lava%40valoper1mfan7gazv43593pz8esmgy8vahcpf6636sprvx&step_id=2'},   
     ]
   },
   {
@@ -158,15 +167,6 @@ const TestnetFeatures = [
 
   ]
 },
-
-  {
-    title: 'LAVA',
-    Svg: require('@site/static/img/testnet/lava.svg').default,
-    buttons: [
-      { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Testnet/lava' },
-      { label: 'Explorer', url: 'https://explorer.vnbnode.com/' },
-    ]
-  },
   {
     title: 'Artela',
     Svg: require('@site/static/img/testnet/artela.svg').default,
