@@ -1,12 +1,21 @@
 const MainnetFeatures = [
   {
+    title: 'AVAIL',
+    Svg: require('@site/static/img/mainnet/avail.svg').default,
+    description: '',
+    buttons: [
+      { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Mainnet/Avail' },
+      { label: 'Explorer', url: 'https://explorer.avail.so/' },
+      { label: 'Stake', url: 'https://staking.avail.tools/'},
+    ]
+  },
+  {
     title: 'DYMENSION',
     Svg: require('@site/static/img/mainnet/dymension.svg').default,
     description: '',
     buttons: [
       { label: 'Install', url: '/docs/Mainnet/Dymension/' },
       { label: 'Explorer', url: 'https://explorer.vnbnode.com/' },
-      { label: 'Stake', url: 'https://wallet.keplr.app/chains/dymension?modal=validator&chain=dymension_1100-1&validator_address=dymvaloper1mgu88mkl88q5l9h6wvzus7ul2fc263g4hpt2mj'},
     ]
   },
   {
@@ -91,15 +100,6 @@ const TestnetFeatures = [
     buttons: [
       { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Testnet/Tanssi/' },
       { label: 'Explorer', url: 'https://polkadot.js.org/apps/?rpc=wss://fraa-dancebox-rpc.a.dancebox.tanssi.network#/explorer' },
-    ]
-  },
-  {
-    title: 'Avail',
-    Svg: require('@site/static/img/testnet/avail.svg').default,
-    description: '',
-    buttons: [
-      { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Testnet' },
-      { label: 'Explorer', url: 'https://avail-testnet.subscan.io/' },
     ]
   },
 
