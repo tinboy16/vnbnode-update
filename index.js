@@ -18,6 +18,14 @@ const MainnetFeatures = [
 
   ]
 },
+    {
+    title: 'VOI',
+    Svg: require('@site/static/img/testnet/voi.svg').default,
+    buttons: [
+      { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Testnet/voi' },
+      { label: 'Monitor', url: 'https://voi-nodes.dev/' },
+    ]
+  },
   {
     title: 'Self Chain',
     Svg: require('@site/static/img/mainnet/selfchain.svg').default,
