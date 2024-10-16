@@ -10,6 +10,15 @@ const MainnetFeatures = [
     ]
   },
   {
+  title: 'CrossFi',
+  Svg: require('@site/static/img/testnet/crossfi.svg').default,
+  buttons: [
+    { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Testnet/crossfi/' },
+    { label: 'Explorer', url: 'http://explorer.vnbnode.com/Crossfi-testnet' },
+
+  ]
+},
+  {
     title: 'Self Chain',
     Svg: require('@site/static/img/mainnet/selfchain.svg').default,
     buttons: [
