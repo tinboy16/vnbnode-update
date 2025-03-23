@@ -5,8 +5,9 @@ const MainnetFeatures = [
     Svg: require('@site/static/img/testnet/avail.svg').default,
     description: '',
     buttons: [
-      { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Testnet' },
-      { label: 'Explorer', url: 'https://avail-testnet.subscan.io/' },
+      { label: 'Install', url: 'https://github.com/vnbnode/VNBnode-Guides/tree/main/Mainnet/Avail/' },
+      { label: 'Explorer', url: 'https://avail.subscan.io/' },
+      { label: 'Stake', url: 'https://staking.avail.tools/'},   
     ]
   },
   {
